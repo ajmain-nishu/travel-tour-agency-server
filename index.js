@@ -86,7 +86,7 @@ async function run() {
     }
 
     // run function call
-    run().catch(console.dir);
+run().catch(console.dir);
 
 // default 
 app.get('/', (req, res) => {
